@@ -1,0 +1,47 @@
+Metadata-Version: 1.1
+Name: fcoin
+Version: 0.1.3
+Summary: fcoin API
+Home-page: http://tushare.org
+Author: Jimmy
+Author-email: waditu@163.com
+License: Apache 2.0
+Description: 
+        
+        FCoin API
+        ===============
+        
+        Fcoin API. 
+        
+        
+        
+        Install
+        --------------
+        
+            pip install fcoin
+            
+        Upgrade
+        ---------------
+        
+            pip install fcoin --upgrade
+            
+        
+        Usage
+        ---------
+        
+            import fcoin
+            
+            api = fcoin.authorize(key='xxx', secret='xxx')
+            
+            symbols = api.symbols()
+        
+        
+Keywords: fcoin API
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: License :: OSI Approved :: BSD License
